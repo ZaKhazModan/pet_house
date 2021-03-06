@@ -4,11 +4,7 @@ class Cat:
         self.gender = gender
         self.age = age
 
-    def getName(self):
-        return self.name
-
-    def getGender(self):
-        return self.gender
-
-    def getAge(self):
-        return self.age
+    def print_pet(self):
+        print("name: " + self.name, "\n"
+              "gender: " + self.gender, "\n"
+              "ages: " + str(self.age))
